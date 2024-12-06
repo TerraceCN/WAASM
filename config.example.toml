@@ -1,0 +1,14 @@
+[cloudflare]
+zone_id = "YOUR CLOUDFLARE ZONE ID"
+api_key = "YOUR CLOUDFLARE API KEY"
+
+[request]
+timeout = 30
+proxy_url = ""
+
+[sampling]
+interval = 905
+data_path = "data"
+
+[logging]
+level = "INFO"
